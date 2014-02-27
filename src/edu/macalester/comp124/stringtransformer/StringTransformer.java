@@ -14,6 +14,7 @@ public abstract class StringTransformer {
      * Apply some transformation to the input string, and return the result.
      */
     public abstract String transform(String s);
+
     
     /**
      * The UI uses toString() for the description, so subclasses must override it. 
